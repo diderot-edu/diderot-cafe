@@ -16,6 +16,10 @@ The flag `is_correct`indicates whether the user's answer is considerd to be corr
 The floating point number "ratio" indicates how correct the answer is.  The value `1.0` means fully correct `0.0` means incorrect.
 The string "feedback" is a piece of feedback to be displayed to the user.
  
+Each directory `python` and `javascript` are structured as follows
+
+* The file `cafe.py/js` contains all CAFE functions.
+* Other files contain specific CAFE functions relevant to a specific topic.  For example, `asymtotics.py/js" contains functions for feedback on asymptotic notation. 
 
 ## Usage
 
